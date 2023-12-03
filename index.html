@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Fiscal Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="nf.js"></script>
+</head>
+<body>
+
+    <div id="dados-nota">
+
+    <hr>
+
+    <h1 id="cabecalho">Nota Fiscal Eletrônica de Serviços</h1>
+
+    <input id="input-nome-completo" type="text" placeholder="Nome Completo"></input>
+
+    <input id="input-valor-servico" type="text" placeholder="Valor do Serviço"></input>
+
+    <input id="input-descricao" type="text" placeholder="Descrição"></input>
+
+    <input id="input-data" type="date">
+
+    <p>Tributos: ISS(5%)</p>
+
+    <button id="button-gerar-nota" onclick="emitirNotaFiscal()">Gerar Nota</button>
+
+    </div>
+
+    <hr>
+
+    <div id="emissao-nota">
+
+    </div>
+
+</body>
+</html>
